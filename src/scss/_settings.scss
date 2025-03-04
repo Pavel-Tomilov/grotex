@@ -122,21 +122,27 @@ span {
   color: var(--gray-700);
 
   &--home {
+    margin-bottom: 60px;
     color: var(--white);
   }
 }
 
 .btn {
 font-family: var(--font-family);
+border-radius: 4px;
+padding: 15px 39px;
 font-weight: 700;
 font-size: 16px;
-line-height: 325%;
+line-height: 20px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 text-align: center;
 color: var(--white);
-  &--fill {
 
+  &--fill {
+background-color: var(--primary);
+border: 1px solid;
+border-color: transparent;
   }
 
   &--stroke {
